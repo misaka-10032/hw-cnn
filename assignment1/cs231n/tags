@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Counter	classifiers/k_nearest_neighbor.py	/^      from collections import Counter$/;"	i
+KNearestNeighbor	classifiers/k_nearest_neighbor.py	/^class KNearestNeighbor:$/;"	c
+LinearClassifier	classifiers/linear_classifier.py	/^class LinearClassifier:$/;"	c
+LinearSVM	classifiers/linear_classifier.py	/^class LinearSVM(LinearClassifier):$/;"	c
+Softmax	classifiers/linear_classifier.py	/^class Softmax(LinearClassifier):$/;"	c
+__init__	classifiers/k_nearest_neighbor.py	/^  def __init__(self):$/;"	m	class:KNearestNeighbor
+__init__	classifiers/linear_classifier.py	/^  def __init__(self):$/;"	m	class:LinearClassifier
+color_histogram_hsv	features.py	/^def color_histogram_hsv(im, nbin=10, xmin=0, xmax=255, normalized=True):$/;"	f
+compute_distances_no_loops	classifiers/k_nearest_neighbor.py	/^  def compute_distances_no_loops(self, X):$/;"	m	class:KNearestNeighbor
+compute_distances_one_loop	classifiers/k_nearest_neighbor.py	/^  def compute_distances_one_loop(self, X):$/;"	m	class:KNearestNeighbor
+compute_distances_two_loops	classifiers/k_nearest_neighbor.py	/^  def compute_distances_two_loops(self, X):$/;"	m	class:KNearestNeighbor
+eval_numerical_gradient	gradient_check.py	/^def eval_numerical_gradient(f, x):$/;"	f
+extract_features	features.py	/^def extract_features(imgs, feature_fns, verbose=False):$/;"	f
+grad_check_sparse	gradient_check.py	/^def grad_check_sparse(f, x, analytic_grad, num_checks):$/;"	f
+hog_feature	features.py	/^def hog_feature(im):$/;"	f
+load_CIFAR10	data_utils.py	/^def load_CIFAR10(ROOT):$/;"	f
+load_CIFAR_batch	data_utils.py	/^def load_CIFAR_batch(filename):$/;"	f
+loss	classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:LinearClassifier
+loss	classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:LinearSVM
+loss	classifiers/linear_classifier.py	/^  def loss(self, X_batch, y_batch, reg):$/;"	m	class:Softmax
+matplotlib	features.py	/^import matplotlib$/;"	i
+np	classifiers/k_nearest_neighbor.py	/^import numpy as np$/;"	i
+np	classifiers/linear_classifier.py	/^import numpy as np$/;"	i
+np	classifiers/linear_svm.py	/^import numpy as np$/;"	i
+np	classifiers/softmax.py	/^import numpy as np$/;"	i
+np	data_utils.py	/^import numpy as np$/;"	i
+np	features.py	/^import numpy as np$/;"	i
+np	gradient_check.py	/^import numpy as np$/;"	i
+os	data_utils.py	/^import os$/;"	i
+pickle	data_utils.py	/^import cPickle as pickle$/;"	i
+predict	classifiers/k_nearest_neighbor.py	/^  def predict(self, X, k=1, num_loops=0):$/;"	m	class:KNearestNeighbor
+predict	classifiers/linear_classifier.py	/^  def predict(self, X):$/;"	m	class:LinearClassifier
+predict_labels	classifiers/k_nearest_neighbor.py	/^  def predict_labels(self, dists, k=1):$/;"	m	class:KNearestNeighbor
+randrange	gradient_check.py	/^from random import randrange$/;"	i
+rgb2gray	features.py	/^def rgb2gray(rgb):$/;"	f
+shuffle	classifiers/linear_svm.py	/^from random import shuffle$/;"	i
+shuffle	classifiers/softmax.py	/^from random import shuffle$/;"	i
+softmax_loss_naive	classifiers/softmax.py	/^def softmax_loss_naive(W, X, y, reg):$/;"	f
+softmax_loss_vectorized	classifiers/softmax.py	/^def softmax_loss_vectorized(W, X, y, reg):$/;"	f
+svm_loss_naive	classifiers/linear_svm.py	/^def svm_loss_naive(W, X, y, reg):$/;"	f
+svm_loss_vectorized	classifiers/linear_svm.py	/^def svm_loss_vectorized(W, X, y, reg):$/;"	f
+train	classifiers/k_nearest_neighbor.py	/^  def train(self, X, y):$/;"	m	class:KNearestNeighbor
+train	classifiers/linear_classifier.py	/^  def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=100,$/;"	m	class:LinearClassifier
+uniform_filter	features.py	/^from scipy.ndimage import uniform_filter$/;"	i
