@@ -57,9 +57,7 @@ def svm_loss_naive(W, X, y, reg):
 
   return loss, dW
 
-# TODO dW is buggy and time consuming
-# complexity is O(#classes * #samples * # features)
-# result is a little bit away from good answer
+
 def svm_loss_vectorized(W, X, y, reg):
   """
   Structured SVM loss function, vectorized implementation.
