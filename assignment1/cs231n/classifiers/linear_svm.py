@@ -134,7 +134,8 @@ def svm_loss_vectorized(W, X, y, reg):
 #  print 'adding ddW takes %fs' % (toc - tic)
 
   dW /= X.shape[1]
-  dW += reg * np.sum(W)
+  # dW += reg * np.sum(W)
+  dW += reg * W
 
   #############################################################################
   #                             END OF YOUR CODE                              #
